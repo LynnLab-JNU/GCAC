@@ -3,8 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Course Content
-===============
+Galaxy Modules for Compound Activity Classification (GCAC)
+=============================================================================
+
+GCAC is a R-caret based galaxy utilities to classify compound activity. 
+
+
+**Try GCAC here:** `A GCAC Galaxy instance for demonstration purpose <server.html>`_
+
+.. comment::
+   
+   **Try GCAC here:** |Click|.
+
+   .. |Click| raw:: html
+
+      <a href="http://demo-gcac.osdd.jnu.ac.in/" target="_blank">A GCAC Galaxy instance</a>
+
+The link redirects to demo-gcac.osdd.jnu.ac.in. Contact us via 'email.id' if not accessible. 
+
+.. note:: This Galaxy instance has limited resources and sould only be used for low end jobs. 
+
+The documenatation provides ...
 
 Contents:
 
