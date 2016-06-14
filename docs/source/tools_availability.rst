@@ -1,5 +1,5 @@
 
-Avaiilability of GCAC Modules
+Availability of GCAC Modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The GCAC Modules are made available to users at different levels to support users from novice, intermediate or advanced bioinformatics and/or system administration background.
