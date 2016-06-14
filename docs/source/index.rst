@@ -9,7 +9,7 @@ Galaxy Modules for Compound Activity Classification (GCAC)
 GCAC is a R-caret based galaxy utilities to classify compound activity. 
 
 
-**Try GCAC here:** `A GCAC Galaxy instance for demonstration purpose <server.html>`_
+**Try GCAC here:** `A GCAC Galaxy instance for demonstration purpose only <server.html>`_
 
 .. comment::
    
@@ -21,7 +21,7 @@ GCAC is a R-caret based galaxy utilities to classify compound activity.
 
 The link redirects to demo-gcac.osdd.jnu.ac.in. Contact us via 'email.id' if not accessible. 
 
-.. note:: This Galaxy instance has limited resources and sould only be used for low end jobs. 
+.. note:: This Galaxy instance has limited resources and should only be used for low end jobs. 
 
 The documenatation provides ...
 
