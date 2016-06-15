@@ -29,7 +29,7 @@ The GCAC "VirtualBox VM" is a standalone machine with pre-installed Galaxy and "
 system-level/GCAC-modules dependencies. 
 
 
-GCAC Toolshed repository
+GCAC Toolshed Repository
 -------------------------
 
 The GCAC "toolshed repository" is a standard method to make available Galaxy tools/utilities. These can be easily 
