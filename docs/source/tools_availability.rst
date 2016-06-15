@@ -54,11 +54,13 @@ fully leverage the power of “ansible roles” and “ansible playbooks”.
 
 **The Installation Steps**
 
-| 1. OS preparation of Galaxy Instance.
-| 2. Installation and configuration of Galaxy Application.
+| 1. OS preparation for the Galaxy Instance.
+| 2. Installation and configuration of the Galaxy Application.
 | 3. Installation of the GCAC Galaxy Modules and system level dependencies/packages. 
 |
 
-The first two steps are for the pristine installation of Galaxy instances. 
-The third step is for the installation of GCAC Galaxy modules on any Galaxy instances.
+.. note:: 
+
+  The first two steps are for the new installation of Galaxy instances. 
+  The third step is for the installation of GCAC Galaxy modules on new/existing Galaxy instances.
 
