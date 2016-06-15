@@ -59,8 +59,8 @@ fully leverage the power of “ansible roles” and “ansible playbooks”.
 | 3. Installation of the GCAC Galaxy Modules and system level dependencies/packages. 
 |
 
-.. note:: 
+  .. note:: 
 
-  | 1. The first two steps are for the new installation of Galaxy instances. 
-  | 2. The third step is for the installation of GCAC Galaxy modules on new/existing Galaxy instances.
-  | 
+    | 1. The first two steps are for the new installation of Galaxy instances. 
+    | 2. The third step is for the installation of GCAC Galaxy modules on new/existing Galaxy instances.
+    | 
