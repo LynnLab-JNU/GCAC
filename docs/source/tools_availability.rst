@@ -22,21 +22,22 @@ iii) Provided as Ansible playbooks:-
       configuration management tool for deploying GCAC modules along with the system level dependencies.
 
 
-Description of GCAC VirtualBox VM
-----------------------------------
+GCAC VirtualBox VM
+-------------------
 
 The GCAC "VirtualBox VM" is a standalone machine with pre-installed Galaxy and "GCAC modules" along with all the 
 system-level/GCAC-modules dependencies. 
 
-Description of GCAC Toolshed repository
-----------------------------------------
+
+GCAC Toolshed repository
+-------------------------
 
 The GCAC "toolshed repository" is a standard method to make available Galaxy tools/utilities. These can be easily 
 installed by a Galaxy administrator via Galaxy Admin interface of Galaxy instance.  
 
 
-Description of GCAC Ansible Playbook
--------------------------------------
+GCAC Ansible Playbook
+----------------------
 
 The GCAC “ansible playbooks” are automated means to install the complete system from the scratch. 
 Although this method is fully automated but it requires understanding of ansible which is a 
