@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Availability of GCAC Modules &mdash; Galaxy Modules for Compound Activity Classification (GCAC) 0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Galaxy Modules for Compound Activity Classification (GCAC) 0.1 documentation" href="index.html"/>
+        <link rel="prev" title="Table 2: Tools Task Description" href="tasks_description.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Galaxy Modules for Compound Activity Classification (GCAC)
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="list_gcac_tools.html">Table 1: List of GCAC tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tasks_description.html">Table 2: Tools Task Description</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Availability of GCAC Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#gcac-virtualbox-vm">1. GCAC VirtualBox VM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gcac-toolshed-repository">2. GCAC Toolshed Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gcac-ansible-playbook">3. GCAC Ansible Playbook</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Galaxy Modules for Compound Activity Classification (GCAC)</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Availability of GCAC Modules</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/tools_availability.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="availability-of-gcac-modules">
+<h1>Availability of GCAC Modules<a class="headerlink" href="#availability-of-gcac-modules" title="Permalink to this headline">¶</a></h1>
+<p>The GCAC Modules are made available to users at different levels to support users from novice, intermediate or advanced bioinformatics and/or system administration background.</p>
+<ol class="lowerroman">
+<li><dl class="first docutils">
+<dt>Provided as VirtualBox VM:-</dt>
+<dd><p class="first last">The easiest means to get the GCAC modules is as a standalone VirtualBox VM [link].
+This require the users to download and import the VM to their VirtualBox environment.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Provided via Toolshed:-</dt>
+<dd><p class="first">The GCAC modules include a list of Galaxy tools/utilities. These Galaxy tools/utilities are made
+available via Public Toolshed repository [link].  This require the users to install the individual
+Galaxy tools/utilities directly to their Galaxy instance. The Users require administrative privileges
+to install it in their Galaxy instances.</p>
+<p class="last">There is a list of system level dependencies that needs to be installed by the users in the host Galaxy instance.
+This requires sudo privileges to install system level dependencies.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Provided as Ansible playbooks:-</dt>
+<dd><p class="first last">The GCAC modules are made available via GCAC ansible playbook. The GCAC ansible playbook leverages ansible
+configuration management tool for deploying GCAC modules along with the system level dependencies.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="section" id="gcac-virtualbox-vm">
+<h2>1. GCAC VirtualBox VM<a class="headerlink" href="#gcac-virtualbox-vm" title="Permalink to this headline">¶</a></h2>
+<p>The GCAC &#8220;VirtualBox VM&#8221; is a standalone machine with pre-installed Galaxy and &#8220;GCAC modules&#8221; along with all the
+system-level/GCAC-modules dependencies.</p>
+</div>
+<div class="section" id="gcac-toolshed-repository">
+<h2>2. GCAC Toolshed Repository<a class="headerlink" href="#gcac-toolshed-repository" title="Permalink to this headline">¶</a></h2>
+<p>The GCAC &#8220;toolshed repository&#8221; is a standard method to make available Galaxy tools/utilities. These can be easily
+installed by a Galaxy administrator via Galaxy Admin interface of Galaxy instance.</p>
+</div>
+<div class="section" id="gcac-ansible-playbook">
+<h2>3. GCAC Ansible Playbook<a class="headerlink" href="#gcac-ansible-playbook" title="Permalink to this headline">¶</a></h2>
+<p>The GCAC “ansible playbooks” are automated means to install the complete system from the scratch.
+Although this method is fully automated but it requires understanding of ansible which is a
+configuration management (CM) tool for deploying applications, managing app configuration and orchestration.</p>
+<p>The GCAC ansible playbook uses “ansible role” [see what is an ansible role?]  to perform specific tasks
+such as installation of application and system level dependencies/packages, management of application
+configurations, etc. We have used publically available “ansible roles” [link to galaxy project ansible roles]
+and customized it to make available the GCAC modules.</p>
+<p>The installation steps are divided into three levels to support specific computing infrastructure requirements
+of users. Each of these steps is powered by specific ansible roles. Users need to understand these steps to
+fully leverage the power of “ansible roles” and “ansible playbooks”.</p>
+<p><strong>The Installation Steps</strong></p>
+<div class="line-block">
+<div class="line">1. OS preparation for the Galaxy Instance.</div>
+<div class="line">2. Installation and configuration of the Galaxy Application.</div>
+<div class="line">3. Installation of the GCAC Galaxy Modules and system level dependencies/packages.</div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">1. The first two steps are for the new installation of Galaxy instances.</div>
+<div class="line">2. The third step is for the installation of GCAC Galaxy modules on new/existing Galaxy instances.</div>
+<div class="line"><br /></div>
+</div>
+</div>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="tasks_description.html" class="btn btn-neutral" title="Table 2: Tools Task Description" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Anmol J. Hemrom.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
