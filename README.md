@@ -1,3 +1,3 @@
 # GCAC
 
-This site is published at https://anmoljh.github.io/GCAC/
+This site is published at https://LynnLab-JNU.github.io/GCAC/
